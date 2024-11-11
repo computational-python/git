@@ -129,7 +129,7 @@ done
 
 ## When to use
 
-#### Why
+### Why
 
 * For source code development
 * For manuscripts
@@ -138,7 +138,7 @@ done
 
 `Practically always`
 
-#### Benefits
+### Benefits
 
 * No history is lost
 * All versions of your documents are preserved
@@ -224,7 +224,7 @@ Creates a configuration file ``~/.gitconfig``
 
 
 ### Untracked files
----------------
+
 
 * ``git`` warns about files in the project directory that Git is not keeping track of
 * To tell git to do so
@@ -604,8 +604,16 @@ work directory     <- init, clone
 
 ### Use a remote server (service)
 
-* github.com (free for public projects)
-* gitlab.com  (free for public and private projects)
+* github.com
+* gitlab.com
+
+---
+## Github workflow scheme
+
+<img src="https://lh3.googleusercontent.com/e56nmW1H1vOmGoR0EVswqus0EcCFMPjefwrFDc6KS5Gm2Yc7P1VEy9WrxHu7iqkst6t-WFhhpXYqhwcY1cOAPUNLbimPm7Uvkl4ZanbNKed-wqFs1eae_hLvDB0jdko0hfNibGl7FA=w2400" height=600>
+
+Drawing by Erik Fasterius
+
 
 ### Links
 
