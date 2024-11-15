@@ -4,6 +4,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+.foo {
+  background-color: #eeeeee;
+  padding: 10px;
+  margin: 10px;
+  font-size: 0.6em;
+}
+.output {
+  background-color: #fbf1c7;
+  padding: 10px;
+  margin: 10px;
+  font-size: 0.7em;
+}
 </style>
 <link rel="stylesheet" href="/git/refreeze/js/highlight/styles/gruvbox-light.css">
 <script src="/git/refreeze/js/highlight/highlight.pack.js"></script>
