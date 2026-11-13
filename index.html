@@ -327,13 +327,15 @@ Three different file areas
     $ git config --global core.autocrlf true
 ~~~
 
-Creates a configuration file ``~/.gitconfig``
+Creates a configuration file ``$HOME/.gitconfig``
 ```
-    [user]
-	name = First Last
-	email = first.last@isp.com
+[user]
+name = First Last
+email = first.last@isp.com
+[core]
+autocrlf = input
+```
 
-```
 *Note*:    You can create and edit the file directly
 
 ---
