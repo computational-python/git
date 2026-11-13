@@ -197,7 +197,7 @@ proj/
 <pre class="output">
     $ cd proj
     $ git status
-    On branch master
+    On branch main
 
     Initial commit
 
@@ -223,7 +223,7 @@ print("Hello world!")
 
 <pre class="output">
 $ git status
-On branch master
+On branch main
 
 Initial commit
 
@@ -245,7 +245,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 <pre class="output">
     $ git add hello.py
     $ git status
-    On branch master
+    On branch main
 
     Initial commit
 
@@ -271,7 +271,7 @@ proj
 
 <pre class="output">
 $ git commit -m "First hello"
-[master (root-commit) edf197e] First hello
+[main (root-commit) edf197e] First hello
  1 file changed, 1 insertion(+)
  create mode 100644 hello.py
 </pre>
@@ -280,7 +280,7 @@ $ git commit -m "First hello"
 
 <pre class="output">
 $ git status
-On branch master
+On branch main
 nothing to commit, working directory clean
 </pre>
 
@@ -339,7 +339,7 @@ To see the commit history of the project files
 * git now recognizes this tracked file as modified
 ```
     $ git status
-    On branch master
+    On branch main
     Changes not staged for commit:
       (use "git add <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
@@ -367,7 +367,7 @@ To see the commit history of the project files
 ```
 ```bash
     $ git commit -m "Change greeting"
-    [master f7efe62] Change greeting
+    [main f7efe62] Change greeting
      1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 ```bash
@@ -421,14 +421,14 @@ To see the commit history of the project files
 ```
 
 ```
-    $ git checkout master
+    $ git checkout main
     Previous HEAD position was edf197e... First hello
-    Switched to branch 'master'
+    Switched to branch 'main'
 ```
 
 ```
     $ git status
-    On branch master
+    On branch main
     nothing to commit, working directory clean
 ```
 
@@ -485,15 +485,15 @@ work directory     <- init, clone
 
 * Let the local branch track the remote repository
 ```
-    $ git push -u dropbox master
+    $ git push -u dropbox main
     Counting objects: 6, done.
     Delta compression using up to 4 threads.
     Compressing objects: 100% (2/2), done.
     Writing objects: 100% (6/6), 473 bytes | 0 bytes/s, done.
     Total 6 (delta 0), reused 0 (delta 0)
     To /home/olav/Dropbox/proj.git
-     * [new branch]      master -> master
-    Branch master set up to track remote branch master from dropbox.
+     * [new branch]      main -> main
+    Branch main set up to track remote branch main from dropbox.
 ```
 
 ---
@@ -514,7 +514,7 @@ work directory     <- init, clone
 
 ```
     $ git commit -m "Capitalize"
-    [master cb05b3f] Capitalize
+    [main cb05b3f] Capitalize
      1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
@@ -525,8 +525,8 @@ work directory     <- init, clone
 * View local changes
 ```
     $ git status
-    On branch master
-    Your branch is ahead of 'origin/master' by 1 commit.
+    On branch main
+    Your branch is ahead of 'origin/main' by 1 commit.
       (use "git push" to publish your local commits)
 
     nothing to commit, working directory clean
@@ -539,7 +539,7 @@ work directory     <- init, clone
     Writing objects: 100% (3/3), 269 bytes | 0 bytes/s, done.
     Total 3 (delta 0), reused 0 (delta 0)
     To /home/olav/Dropbox/proj.git
-       f7efe62..cb05b3f  master -> master
+       f7efe62..cb05b3f  main -> main
 ```
 
 ---
@@ -570,7 +570,7 @@ work directory     <- init, clone
     remote: Total 3 (delta 0), reused 0 (delta 0)
     Unpacking objects: 100% (3/3), done.
     From /home/olav/Dropbox/proj
-       cb05b3f..d5fe073  master     -> origin/master
+       cb05b3f..d5fe073  main     -> origin/main
     Updating cb05b3f..d5fe073
     Fast-forward
      hello.py | 2 +-
