@@ -1,9 +1,5 @@
 # Version Control: git
 
-## Olav Vahtras
-
-Computational Python
-
 ---
 
 layout: false
@@ -155,6 +151,14 @@ Three different file areas
     $ git config --global user.name "First Last"
     $ git config --global user.email "first.last@isp.com"
 ```
+* linux/mac:
+~~~
+    $ git config --global core.autocrlf input
+~~~
+* windows:
+~~~
+    $ git config --global core.autocrlf true
+~~~
 
 Creates a configuration file ``~/.gitconfig``
 ```
